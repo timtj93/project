@@ -1,0 +1,29 @@
+html {
+	background-color: #0099FF;
+}
+
+.stuff {
+	text-align: center;
+}
+
+#signupform {
+	background-color: white;
+	border-style: double;
+	border-width: 5px;
+	border-radius: 20px;
+	width: 25%;
+	height: 250px;
+	border-color: black;
+	position: relative;
+	left: 400px;
+	top: 50px;
+	text-align: center;
+}
+
+body img {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 50px;
+	left: 500px;
+}

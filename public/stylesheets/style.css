@@ -1,0 +1,38 @@
+html {
+	background-color: #0099FF;
+}
+
+body header img {
+	width: 75px;
+	height: 75px;
+	position: relative;
+	right: 175px;
+	top: 125px;
+}
+
+body header h1 {
+	font-family: trebuchet;
+	font-size: 50px;
+	position: relative;
+	left: 40px;
+	top: 20px;
+}
+
+body #login {
+	border-style: double;
+	border-width: 5px;
+	border-radius: 20px;
+	width: 50%;
+	border-color: white;
+	position: relative;
+	left: 250px;
+	top: 50px;
+}
+
+body {
+	text-align: center;
+}
+
+body #link {
+	bottom: 300px;
+}
