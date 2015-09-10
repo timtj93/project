@@ -2,33 +2,35 @@
 <html>
     <head>
         <title>My Project</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="public/stylesheets/style.css">
     </head>
     <body>
-    <header>
-    	<img src="http://i.istockimg.com/file_thumbview_approve/63121441/3/stock-illustration-63121441-white-square-button-with-rock-roll-hand-icon.jpg" />
-    	<h1><strong>Stay Awesome!</strong></h1>
-    <section id="login">
-    	<h2>Login</h2>
-    	<form method="POST" action="/login">
-    		<label for="email">E-mail</label>
-    		<input type="email" id:="email" name="email"/>
-    		<br>
-    		<br>
+        <header id="my-header">
+        	<img src="http://i.istockimg.com/file_thumbview_approve/63121441/3/stock-illustration-63121441-white-square-button-with-rock-roll-hand-icon.jpg" />
+        	<h1><strong>Stay Awesome!</strong></h1>
+        </header>
+        <section class="login">
+        	<h2>Login</h2>
+        	<form method="POST" action="/login">
+        		<label for="email">E-mail</label>
+        		<input type="email" id:="email" name="email"/>
+        		<br>
+        		<br>
 
-    		<label for="password">Password</label>
-    		<input type="password" id="password" name="password">
-    		<br>
-    		<br>
 
-    		<input type="submit">
+        		<label for="password">Password</label>
+        		<input type="password" id="password" name="password">
+        		<br>
+        		<br>
 
-    	</form>
+        		<input type="submit" class="btn btn-success">
+        	</form>
 
-    	<br>
-    	<br>
+        	<br>
+        	<br>
 
-    	<a href="signup.html">Sign Up Here!</a>
-    </section>
+        	<a href="signup.html" class="btn btn-default">Sign Up Here!</a>
+        </section>
     </body>
 </html>

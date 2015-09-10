@@ -1,6 +1,7 @@
-html {
+body {
 	background-color: #0099FF;
 }
+
 
 body header img {
 	width: 75px;
@@ -18,16 +19,17 @@ body header h1 {
 	top: 20px;
 }
 
-body #login {
+body .login {
 	border-style: double;
 	border-width: 5px;
 	border-radius: 20px;
 	width: 50%;
 	border-color: white;
 	position: relative;
-	left: 250px;
+	left: 300px;
 	top: 50px;
 }
+
 
 body {
 	text-align: center;
